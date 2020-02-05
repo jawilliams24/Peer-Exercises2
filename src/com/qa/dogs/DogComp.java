@@ -18,7 +18,7 @@ public class DogComp {
 		System.out.println("What place did your dog finish?");
 		
 		PlaceScan place = new PlaceScan();
-		System.out.println(place.placeScanner());
+		place.placeScanner();
 		dogs.remove(PlaceScan.getNumber()-1);
 		
 		System.out.println(dogs);
